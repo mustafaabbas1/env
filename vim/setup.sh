@@ -1,6 +1,3 @@
 #!/bin/bash
 
-script_path=$(readlink -f $(dirname $0))
-mkdir -vp ~/.vimfiles/backup
-mkdir -vp ~/.vimfiles/temp
-cp -v $script_path/.vimrc ~/.vimrc
+curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
