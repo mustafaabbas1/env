@@ -74,5 +74,5 @@ set backspace=indent,eol,start
 set hlsearch
 
 " set tabpagemax=120
-set backupdir=~/vimfiles/backup " where to put backup files
-set directory=~/vimfiles/temp " directory to place swap files in
+set backupdir=~/.vimfiles/backup " where to put backup files
+set directory=~/.vimfiles/temp " directory to place swap files in
