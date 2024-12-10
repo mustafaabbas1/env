@@ -3,7 +3,6 @@
 brew install goenv
 
 profile_script='
-
 # goenv
 export GOENV_ROOT="$HOME/.goenv"
 export PATH="$GOENV_ROOT/bin:$PATH"

@@ -2,8 +2,9 @@
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-cat <<EOF >> $HOME/.zprofile
-
+profile_script='
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
-EOF
+'
+
+echo "$profile_script" >> ~/.zprofile
