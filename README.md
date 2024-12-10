@@ -7,4 +7,4 @@ Some scripts to get started setting up quickly with my environment
 * homebrew
   * nvm via homebrew
   * pyenv via homebrew
-* go standalone
+* go
