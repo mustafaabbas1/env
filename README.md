@@ -5,6 +5,6 @@ Some scripts to get started setting up quickly with my environment
 * vim
 * ohmyzsh
 * homebrew
- * nvm via homebrew
- * pyenv via homebrew
+  * nvm via homebrew
+  * pyenv via homebrew
 * go standalone
