@@ -7,4 +7,7 @@ Some scripts to get started setting up quickly with my environment
 * homebrew
   * nvm via homebrew
   * pyenv via homebrew
-* go
+  * goenv via homebrew
+  * fvm via homebrew
+
+the scripts are for mac, but easy enough to adapt for linux or windows
