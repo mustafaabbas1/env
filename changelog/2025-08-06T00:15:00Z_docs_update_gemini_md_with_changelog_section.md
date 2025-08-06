@@ -1,0 +1,1 @@
+refactor: Update GEMINI.md to include a structured changelog section with links to individual changelog files. This makes the project context more deterministic and easier for the agent to parse.
