@@ -13,7 +13,7 @@ The main entry point is the `setup.sh` script in the root directory. This script
 -   `setup.sh`: The main script that executes the setup for all the tools. It is designed to be run from any directory and will determine its own location to correctly reference the other scripts.
 -   `tools/`: This directory contains subdirectories for each tool that can be installed.
     -   `tools/<tool_name>/setup.sh`: Each tool subdirectory contains a `setup.sh` script that is responsible for installing and configuring that specific tool. These scripts are designed to be idempotent, meaning they can be run multiple times without causing issues.
--   `changelog/`: This directory contains markdown files that document the changes made to the project. Each commit should have its own changelog file, named with the date and a short description of the change (e.g., `YYYY-MM-DD_description.md`).
+-   `changelog/`: This directory contains markdown files that document the changes made to the project. Each commit should have its own changelog file, named with the date and a short description of the change (e.g., `YYYY-MM-DDTHH:MM:SS_description.md`).
 -   `GEMINI.md`: This file (formerly `AGENT.md`) provides context to the Gemini AI assistant.
 
 ## Tool Setup Workflow
