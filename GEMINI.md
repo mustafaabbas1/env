@@ -18,6 +18,7 @@ The main entry point is the `setup.sh` script in the root directory. This script
 
 ## Changelog
 
+- [2025-08-06T00:20:00Z_docs_update_gemini_md.md](changelog/2025-08-06T00:20:00Z_docs_update_gemini_md.md)
 - [2025-08-05T23:57:49_rename_agent_md.md](changelog/2025-08-05T23:57:49_rename_agent_md.md)
 - [2025-08-05T23:48:24_setup_script_refactor.md](changelog/2025-08-05T23:48:24_setup_script_refactor.md)
 
@@ -32,5 +33,5 @@ The script also includes a verification step to ensure that all the tool directo
 
 -   **Modularity:** When adding a new tool, create a new subdirectory in the `tools` directory and add a `setup.sh` script to it.
 -   **Idempotency:** Ensure that all `setup.sh` scripts are idempotent.
--   **Changelog:** Create a new changelog file for each commit.
+-   **Changelog:** Create a new changelog file for each commit, and link it to the changelog section. Each changelog should contain a summary of the prompts made, along with the changes made in response.
 -   **Clarity:** The `GEMINI.md` file should be kept up-to-date with any changes to the project structure or development workflow.
