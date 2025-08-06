@@ -8,12 +8,10 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # Define the order of tool setups
 TOOL_ORDER=(
   "homebrew"
-  "ohmyzsh"
   "nvm"
   "pyenv"
   "goenv"
   "vim"
-  "ctags"
 )
 
 # Verify that all tool directories exist
