@@ -1,0 +1,1 @@
+refactor: Rename AGENT.md to GEMINI.md and improve its content.
