@@ -1,0 +1,16 @@
+# env
+
+Modular development environment setup scripts for macOS.
+
+## Metadata
+- **Repository**: https://github.com/mustafaabbas1/env
+- **Main Entry Point**: `setup.sh`
+- **Config Files**: `AGENTS.md` (Agent instructions)
+
+## Project Structure
+- `setup.sh`: Root orchestration script.
+- `tools/`: Individual tool setup scripts (homebrew, nvm, pyenv, etc.).
+- `changelog/`: History of changes.
+
+## Development Context
+See `AGENTS.md` for detailed instructions on the modular setup flow and development guidelines.

@@ -1,6 +1,6 @@
-# Gemini Workspace Context
+# Agent Workspace Context
 
-This document provides context for the Gemini AI assistant to effectively assist with the development of this project.
+This document provides context for AI agents and assistants to effectively assist with the development of this project.
 
 ## Project Overview
 
@@ -14,7 +14,7 @@ The main entry point is the `setup.sh` script in the root directory. This script
 -   `tools/`: This directory contains subdirectories for each tool that can be installed.
     -   `tools/<tool_name>/setup.sh`: Each tool subdirectory contains a `setup.sh` script that is responsible for installing and configuring that specific tool. These scripts are designed to be idempotent, meaning they can be run multiple times without causing issues.
 -   `changelog/`: This directory contains markdown files that document the changes made to the project. Each commit should have its own changelog file, named with the date and a short description of the change (e.g., `YYYY-MM-DDTHH:MM:SS_description.md`).
--   `GEMINI.md`: This file (formerly `AGENT.md`) provides context to the Gemini AI assistant.
+-   `AGENTS.md`: This file provides context to AI agents.
 
 ## Tool Setup Workflow
 
@@ -26,4 +26,4 @@ The script also includes a verification step to ensure that all the tool directo
 
 -   **Modularity:** When adding a new tool, create a new subdirectory in the `tools` directory and add a `setup.sh` script to it.
 -   **Idempotency:** Ensure that all `setup.sh` scripts are idempotent.
--   **Clarity:** The `GEMINI.md` file should be kept up-to-date with any changes to the project structure or development workflow.
+-   **Clarity:** The `AGENTS.md` file should be kept up-to-date with any changes to the project structure or development workflow.
